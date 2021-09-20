@@ -1,0 +1,30 @@
+body{
+justify-content: center;
+font:18px 'Gilroy', sans-serif;
+font-style: normal;
+font-weight: bold;
+color: #73738D;
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+}
+
+.container__1{
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #73738D;
+}
+div{
+    display: block;
+}
+li{
+display:block;
+}
