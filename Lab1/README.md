@@ -24,3 +24,8 @@ website development. The whole team cannot use the right to skip this work!<br>
     <p>Link to figma task:</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" width=300 alt="loading image">
 </a>
+
+<a href="https://pashtetollo.github.io/Lab1/index.html">
+    <p>Link to landing page on github pages:</p>
+    <img src ="./images/phone.png" height= 200>
+</a>
