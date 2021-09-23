@@ -1,0 +1,85 @@
+.hero{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero__inner {
+    padding-left: 110px;
+    margin: auto;
+    max-width: 430px;
+    margin-top: 100px;
+}
+
+.title {
+    color:black;
+    font-size: 40.1972px;
+    line-height: 49px;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 150%;
+}
+
+.email-to-try {
+    
+font-weight: 600;
+font-size: 11.0889px;
+display: inline;
+height: 42px;
+width: 420px;
+}
+
+.input-email{
+    color: #73738D99;
+    border-radius:42px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 8px #E5E5E5;
+    border-width: 0px;
+}
+
+.submit-email{
+    width: 155.94px;
+    height: 43px;
+    left: 368.71px;
+    color: white;
+    background-color: #1943EF;
+    border: 0px;
+    border-radius: 42px;
+    margin-left: -80px;
+}
+
+.container__hero{
+    max-width: 1000px;
+    display: flex;
+}
+
+.phone {
+position: relative;
+width: 280px;
+height: 480px;
+margin-top: 50px;
+margin-left: 100px;
+}
+.phone-circle-top{
+position: absolute;
+width: 40.2px;
+height: 40.2px;
+left:10px;
+top:10px;
+}
+
+.phone-circle-bottom{
+    position: absolute;
+    width: 60.99px;
+    height: 60.99px;
+    right: 53px;
+    bottom: 43px;
+}
+.phone-img{
+    width: 230px;
+    height: 458.74px;
+    position: absolute;
+    top:0px;
+}
