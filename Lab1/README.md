@@ -20,12 +20,15 @@ P.S If your semester project has a landing website that satisfies the requiremen
 then you could skip this work by bringing your website for an assessment.
 Note: The above goes only for those students. who were actually responsible for the 
 website development. The whole team cannot use the right to skip this work!<br>
+<h1>Lab2</h1><br>
+- add responsivness for 340px (Iphone 5) and 2560px (4k screens)<br>
+- add 3 animations<br>
 <a href="https://www.figma.com/file/ZM6o4UFoZUq9Kup8NjV94p/LabWork1-V10">
     <p>Link to figma task:</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" width=300 alt="loading image">
 </a>
 
-<a href="https://pashtetollo.github.io/Lab1/index.html">
+<a href="https://pashtetollo.github.io/Lab2/index.html">
     <p>Link to landing page on github pages:</p>
     <img src ="./images/phone.png" height= 200>
 </a>
