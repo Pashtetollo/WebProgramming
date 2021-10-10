@@ -125,3 +125,43 @@ color: #73738D;
     font-size: 11.0889px;
     line-height: 13px;
 }
+
+@media (max-width: 48em) {
+    .bottom__info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .send__content{
+        padding-bottom: 20px;
+        margin: auto;
+        float: left;
+        max-width: 80vw;
+    }
+    .additonal-img{
+        display: none;
+    }
+    .send-paragraph-2{
+        max-width: 70vw;
+    }
+    .bottom-try{
+        width:80vw;
+        margin-top: 3rem;
+    }
+    .bottom-try-button{
+        position: relative;
+        margin-top: 0px;
+        margin: auto;
+    }
+    .stay__connected{
+        margin-top: 8rem;
+        max-width: 80vw;
+        margin-left: 10vw;
+    }
+    .stay-title{
+        text-align: center;
+    }
+    .stay-paragraph{
+        max-width: 80vw;
+    }
+}

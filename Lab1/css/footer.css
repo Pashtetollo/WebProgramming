@@ -20,3 +20,8 @@
     color: #73738D;
     
 }
+@media (max-width: 48em) {
+    .footer{
+        width: 100vw;
+    }
+}

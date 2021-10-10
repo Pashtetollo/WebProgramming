@@ -56,6 +56,7 @@ width: 420px;
 }
 
 .phone {
+flex-direction: row;
 position: relative;
 width: 280px;
 height: 480px;
@@ -82,4 +83,54 @@ top:10px;
     height: 458.74px;
     position: absolute;
     top:0px;
+}
+.phone:hover {
+    animation: color-rotate 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+@media (max-width: 48em) {
+.phone{
+    
+margin-top: 5rem;
+margin-left: auto;
+}
+.hero__inner{
+    
+    padding-top: 8rem;
+    padding-left: 0px;
+    max-width: 100vw;
+    margin: auto;
+}
+
+.title{
+    width: 80vw;
+    margin: auto;
+    font-size: 30px;
+line-height: 35px;
+}
+.paragraph{
+    padding-top: 1rem;
+    width: 90vw;
+    margin-left:  5vw;
+}
+
+.email-to-try{
+    width: 90vw;
+    margin: auto;
+    display: block;
+}
+.input-email{
+    max-width: 90%;
+    margin: auto;
+}
+
+.container__hero{
+    display: flex;
+    flex-direction: column;
+
+}
+.submit-email{
+    margin-left: 20vw;
+}
 }
