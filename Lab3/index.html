@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits!</title>
+    <link rel="icon" href ="https://previews.123rf.com/images/kembardesign/kembardesign1704/kembardesign170400046/76994675-fresh-fruit-logo.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="light", id="body">
+    <header class="header">
+        <div class="Title">
+            <h1 class="Title-1">Fruits</h1>
+            <h1 class="Title-2">Shop</h1>
+         </div>
+        <nav class="navigation">
+             <div class="color_scheme"><button id="select_color" class="select_color">Choose dark side</button></div>
+         </nav>
+    </header>
+    <section class="container">
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2 id="header-text">Modal Header</h2>
+            </div>
+            <div class="modal-body" id="modal-body">
+            </div>
+            <div class="modal-body" id ="modal-button">
+              <button id="put-button" class="crud-button" >Update</button>
+              <button id="post-button"class="crud-button" >Send</button>
+            </div>
+            <div class="modal-footer">
+              <h3>FruitshopInc 2021 - 2021 &copy All right reserverd.</h3>
+            </div>
+          </div>  
+        </div>
+
+        <div id="findModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 id="header-text">Find fruit</h2>
+            </div>
+            <div class="modal-body" id="modal-body">
+              search fruits: 
+              <input id="search-input">
+              <button id = "search-button">FIND!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu">
+            <ul class="menu-items">
+                <button id="add_fruit" class="menu-item">add fruit</button>
+                <button id= "settings"class="menu-item">settings</button>
+                <button id= "about_us" onclick="window.location='./pages/about.html' "class="menu-item">about us</button>
+            </ul>
+        </div>
+        <section class="hero">
+            <ul id="cards" class="cards">
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Left_arrow.svg/1221px-Left_arrow.svg.png" alt="previous page" id="prev-page" class="page-arrow">
+            <p id="page-number"></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Right_arrow.svg/2442px-Right_arrow.svg.png" alt="next page" id="next-page" class="page-arrow">
+        </section>
+    </section>
+    <footer class="footer"></footer>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>

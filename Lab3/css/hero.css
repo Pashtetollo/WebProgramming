@@ -1,0 +1,30 @@
+@import url(./global.css);
+.hero{
+    
+    justify-content: space-between;
+    width: 60vw;
+    height: 100%;
+}
+
+.page-arrow{
+    position: absolute;
+    bottom: -20px;
+    width: 20px;
+
+}
+#next-page{
+    margin-left:50vw;
+}
+
+#page-number{
+    font-size: 40px;
+    position: absolute;
+    color: var(--text-color);
+    font-weight: 900;
+    right:52%;
+    bottom: -80px;
+}
+#findModal{
+    color:whitesmoke;
+    font-size: 20px;
+}

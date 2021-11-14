@@ -1,0 +1,12 @@
+@import url(./global.css);
+.footer{
+    position: absolute;
+    display: block;
+    border-width: 2px;
+    padding-left: 100px;
+    margin-bottom:0px;
+    height: 70px;
+    margin-bottom:-10px ;
+    width: 100%;
+    background-color: var(--header-color);
+}
